@@ -1,0 +1,20 @@
+CREATE USER:
+             CREATE USER WFD
+             IDENTIFIED BY SEST
+GRANT PERMIT:
+             Log in to the system admin
+             Write the command:
+
+                 GRANT CONNECT, RESOURCE TO WFD
+
+VIEW PERMIT:
+for allowing the view in your query, you need to write one simple command in your "SYSTEM" administrator
+just log in to the system where you write the grant commands 
+ 
+then 
+write:
+
+
+GRANT  create view
+    TO     WFD
+
